@@ -16,5 +16,5 @@ LEIA peso
 excesso <- peso - 50
 multa <- 4.00 * excesso
 ESCREVA "O excesso: ",excesso
-ESCREVA "A multa pelo execesso: ",multa
+ESCREVA "A multa pelo excesso: ",multa
 FIM_ALGORITMO
