@@ -1,0 +1,14 @@
+/*
+
+ 9) Faça um Programa que peça a temperatura em graus Farenheit, transforme e mostre a temperatura em graus Celsius.
+o C = (5 * (F-32) / 9).
+
+*/
+
+ALGORITMO
+DECLARE c,f NUMÉRICO
+ESCREVA "Digite a temperatura em farenheit: "
+LEIA f
+c <- (5 * (f-32)) / 9
+ESCREVA "A temperatura em celsius: ",c 
+FIM_ALGORITMO

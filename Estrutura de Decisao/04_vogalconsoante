@@ -1,0 +1,16 @@
+/*
+
+4) Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+
+*/
+
+ALGORITMO
+DECLARE le CARACTERE
+ESCREVA "Digite uma letra qualquer: "
+LEIA le
+SE le = 'a' OU le = 'e' OU le = 'i' OU le = 'o' OU le = 'u' OU le = 'A' OU le = 'E' OU le = 'I' OU le = 'O' OU le = 'U'
+ENTÃO
+  ESCREVA "É uma vogal: ",le
+SENÃO
+  ESCREVA "É uma consoante: ",le
+FIM_ALGORITMO

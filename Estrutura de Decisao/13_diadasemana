@@ -1,0 +1,42 @@
+/*
+
+13)Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar
+outro valor deve aparecer valor inválido.
+
+*/
+
+ALGORITMO
+DECLARE n,do,se,ter,qua,qui,sex,sab NUMÉRICO
+ESCREVA "Digite um valor: "
+LEIA n
+do <- 1
+se <- 2
+ter <- 3
+qua <- 4
+qui <- 5
+sex <- 6
+sab <- 7
+SE n = do
+ENTÃO 
+  ESCREVA "Domingo"
+SE n = se
+ENTÃO 
+  ESCREVA "Segunda"
+SE n = ter
+ENTÃO 
+  ESCREVA "Terça"
+SE n = qua
+ENTÃO 
+  ESCREVA "Quarta"
+SE n = qui
+ENTÃO 
+  ESCREVA "Quinta"
+SE n = sex
+ENTÃO 
+  ESCREVA "Sexta"
+SE n = sab
+ENTÃO 
+ ESCREVA "Sábado"
+SENÃO
+ ESCREVA "Valor inválido"
+FIM_ALGORITMO

@@ -1,0 +1,13 @@
+/*
+
+10) Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Farenheit.
+
+*/
+
+ALGORITMO
+DECLARE c,f NUMÉRICO
+ESCREVA "Digite o valor em celsius: "
+LEIA c
+f <- c * (9/5) + 32
+ESCREVA "O valor em farenheit: ", f
+FIM_ALGORITMO

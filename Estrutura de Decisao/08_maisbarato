@@ -1,0 +1,41 @@
+/*
+
+8)Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a
+decisão é sempre pelo mais barato.
+
+*/
+
+ALGORITMO
+DECLARE po1,po2,po3 CARACTERE
+DECLARE n1,n2,n3 NUMÉRICO
+ESCREVA "Digite três produtos: "
+LEIA po1
+LEIA po2
+LEIA po3
+ESCREVA " "
+ESCREVA "Digite o preço de cada um: "
+ESCREVA po1,": "
+LEIA n1
+ESCREVA po2,": "
+LEIA n2
+ESCREVA po1,": "
+LEIA n3
+SE n1 < n2 E n1 < n3 
+ENTÃO 
+INÍCIO
+  ESCREVA "O produto mais barato é ",po1
+  ESCREVA "O seu preço: ",n1
+FIM
+SENÃO SE n2 < n1 E n2 < n3 
+ENTÃO 
+INÍCIO
+  ESCREVA "O produto mais barato é ",po2
+  ESCREVA "O seu preço: ",n2
+FIM
+SENÃO SE n3 < n1 E n3 < n2 
+ENTÃO 
+INÍCIO
+  ESCREVA "O produto mais barato é ",po3
+  ESCREVA "O seu preço: ",n3
+FIM      
+FIM_ALGORITMO

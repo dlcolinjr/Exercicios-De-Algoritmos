@@ -1,0 +1,18 @@
+/*
+
+1) Faça um Programa que peça dois números e imprima o maior deles
+
+*/
+
+ALGORITMO
+DECLARE n1,n2 NUMÉRICO
+ESCREVA "Digite um valor: "
+LEIA n1
+ESCREVA "Digite outro valor: "
+LEIA n2
+SE n1 > n2 
+ENTÃO
+  ESCREVA n1," é maior que ",n2
+SENÃO
+  ESCREVA n2," é maior que ",n1
+FIM_ALGORITMO

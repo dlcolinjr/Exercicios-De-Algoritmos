@@ -1,0 +1,59 @@
+/*
+
+14)Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule
+a sua média. A atribuição de conceitos obedece à tabela abaixo:
+
+Médiade Aproveitamento                     Conceito
+Entre 9.0 e 10.0                               A
+Entre 7.5 e 9.0                                B
+Entre 6.0 e 7.5                                C
+Entre 4.0 e 6.0                                D
+Entre 4.0 e zero                               E
+
+O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO” se
+o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
+
+*/
+
+ALGORITMO
+DECLARE n1,n2,me NUMÉRICO
+DECLARE con,disc CARACTERE
+ESCREVA "Digite as notas"
+LEIA n1
+LEIA n2
+me <- (n1+n2)/2
+SE me >= 9 E me <= 10
+ENTÃO
+INÍCIO
+  con <- 'A'
+  disc <- "APROVADO"
+FIM
+SENÃO SE me >= 7.5 E me < 9
+ENTÃO
+INÍCIO
+  con <- 'B'
+  disc <- "APROVADO"
+FIM
+SENÃO SE me >= 6 E me < 7.5
+ENTÃO
+INÍCIO
+  con <- 'C'
+  disc <- "APROVADO"
+FIM
+SENÃO SE me >= 4 E me < 6
+ENTÃO
+INÍCIO
+  con <- 'D'
+  disc <- "REPROVADO"
+FIM
+SENÃO 
+INÍCIO
+  con <- 'E'
+  disc <- "REPROVADO"
+FIM
+ESCREVA "A nota 1: ",n1
+ESCREVA "A nota 2: ",n2
+ESCREVA "A sua média é: ",me
+ESCREVA "Conceito: ",con
+ESCREVA disc
+FIM_ALGORITMO

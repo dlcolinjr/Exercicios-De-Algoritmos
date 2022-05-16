@@ -1,0 +1,22 @@
+/*
+
+6)Faça um Programa que leia três números e mostre o maior deles.
+
+*/
+
+ALGORITMO
+DECLARE n1,n2,n3 NUMÉRICO
+ESCREVA "Digite os valores: "
+LEIA n1
+LEIA n2
+LEIA n3
+SE n1 > n2 E n1 > n3
+ENTÃO 
+  ESCREVA "O maior valor é: ",n1
+SENÃO SE n2 > n1 E n2 > n3
+ENTÃO 
+  ESCREVA "O maior valor é: ",n2
+SENÃO SE n3 > n1 E n3 > n2
+ENTÃO 
+  ESCREVA "O maior valor é: ",n3  
+FIM_ALGORITMO

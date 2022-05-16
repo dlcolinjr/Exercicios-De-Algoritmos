@@ -1,0 +1,16 @@
+/*
+
+2)Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+
+*/
+
+ALGORITMO
+DECLARE n1 NUMÉRICO
+ESCREVA "Digite um valor: "
+LEIA n1
+SE n1 >= 0
+ENTÃO
+  ESCREVA "O valor é positivo"
+SENÃO
+  ESCREVA "O valor é negativo"
+FIM_ALGORITMO

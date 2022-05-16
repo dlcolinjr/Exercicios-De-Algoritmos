@@ -1,0 +1,13 @@
+/*
+
+ 6) Faça um Programa que converta metros para centímetros.
+
+*/
+
+ALGORITMO
+DECLARE m,cm NUMÉRICO
+ESCREVA "Digite um valor(em metros): "
+LEIA m
+cm <- m * 100
+ESCREVA "O valor em centrimetros: ",cm
+FIM_ALGORITMO

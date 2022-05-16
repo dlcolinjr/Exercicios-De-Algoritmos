@@ -1,0 +1,13 @@
+/*
+
+3) Faça um Programa que peça dois números e imprima a soma.
+
+*/
+
+ALGORITMO
+DECLARE n1,n2 NUMÉRICO
+ESCREVA "Digite os valores: "
+LEIA n1
+LEIA n2
+ESCREVA "A soma dos valores: ",n1+n2
+FIM_ALGORITM0

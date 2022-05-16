@@ -1,0 +1,35 @@
+/*
+
+9) Faça um Programa que leia três números e mostre-os em ordem decrescente.
+
+*/
+
+ALGORITMO
+DECLARE n1,n2,n3 NUMÉRICO
+ESCREVA "Digite os valores: "
+LEIA n1
+LEIA n2
+LEIA n3
+ESCREVA " "
+SE n1 > n2 E n1 > n3
+ENTÃO
+  SE n2 > n3
+  ENTÃO
+    ESCREVA "A ordem decrescente: ",n1," ", n2," ", n3
+  SENÃO
+    ESCREVA "A ordem decrescente: ",n1," ", n3," ", n2    
+SE n2 > n1 E n2 > n3
+ENTÃO
+  SE n1 > n3
+  ENTÃO
+    ESCREVA "A ordem decrescente: ",n2," ", n1," ", n3
+  SENÃO
+    ESCREVA "A ordem decrescente: ",n2," ", n3," ", n1
+SE n3 > n1 E n3 > n2
+ENTÃO
+  SE n2 > n1
+  ENTÃO
+    ESCREVA "A ordem decrescente: ",n3," ", n2," ", n1
+  SENÃO
+    ESCREVA "A ordem decrescente: ",n3," ", n1," ", n2
+FIM_ALGORITMO

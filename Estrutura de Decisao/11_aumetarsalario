@@ -1,0 +1,66 @@
+/*
+
+11)As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para
+  desenvolver o programa que calculará os reajustes.
+      
+ Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no
+       salário atual:
+       salários até R$ 280,00 (incluindo) : aumento de 20%
+       salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
+       salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
+       salários de R$ 1500,00 em diante : aumento de 5% Após o aumento ser realizado, informe na tela:
+        salário antes do reajuste;
+        percentual de aumento aplicado;
+        valor do aumento;
+        novo salário, após o aumento.
+
+*/
+
+ALGORITMO
+DECLARE s,au,sa NUMÉRICO
+ESCREVA "Digite o seu salário atual: "
+LEIA s
+SE s <= 280.00
+ENTÃO
+INÍCIO
+  au <- s * (20/100)
+  sa <- s + au
+  ESCREVA "O seu salário de ",s
+  ESCREVA "Será aumetado em 20%!"
+  ESCREVA "O valor do aumento: ",au
+  ESCREVA " "
+  ESCREVA "Seu novo salário: ",sa   
+FIM
+SENÃO SE s > 280.00 E s <= 700.00
+ENTÃO
+INÍCIO
+  au <- s * (15/100)
+  sa <- s + au
+  ESCREVA "O seu salário de ",s
+  ESCREVA "Será aumetado em 15%!"
+  ESCREVA "O valor do aumento: ",au
+  ESCREVA " "
+  ESCREVA "Seu novo salário: ",sa   
+FIM
+SENÃO SE s > 700.00 E s <= 1500.00
+ENTÃO
+INÍCIO
+  au <- s * (10/100)
+  sa <- s + au
+  ESCREVA "O seu salário de ",s
+  ESCREVA "Será aumetado em 10%!"
+  ESCREVA "O valor do aumento: ",au
+  ESCREVA " "
+  ESCREVA "Seu novo salário: ",sa   
+FIM
+SENÃO 
+INÍCIO
+  au <- s * (5/100)
+  sa <- s + au
+  ESCREVA "O seu salário de ",s
+  ESCREVA "Será aumetado em 5%!"
+  ESCREVA "O valor do aumento: ",au
+  ESCREVA " "
+  ESCREVA "Seu novo salário: ",sa   
+FIM
+FIM_ALGORITMO
