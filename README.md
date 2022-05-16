@@ -14,7 +14,7 @@ https://wiki.python.org.br/ListaDeExercicios
 ### Observações
 - Apesar de serem feitos em pseudo-linguagem(Português Estruturado), os exercícios são voltado para a linguagem python.
 - Lista incompleta e alguns exercícios diferem do site.
-
+- Busco melhorar minha lógica. Provavelmente alguns algoritmos estão incorretos e/ou mal-implementados.
 <br>
 
 _Referência da pseudo-linguagem:_
