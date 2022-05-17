@@ -48,12 +48,14 @@ INÍCIO
      vap <- vac - deca             
   FIM
   SENÃO SE pag = 'd' OU pag = 'D'
+  ENTÃO
   INÍCIO
     pagn <- "Dinheiro"
     deca <- 0
     vap <- vac - deca
   FIM
   SENÃO SE pag = 'X' OU pag = 'x'
+  ENTÃO
   INÍCIO
     pagn <- "Cheque"
     deca <- 0
@@ -89,12 +91,14 @@ INÍCIO
      vap <- vac - deca             
   FIM
   SENÃO SE pag = 'd' OU pag = 'D'
+  ENTÃO
   INÍCIO
     pagn <- "Dinheiro"
     deca <- 0
     vap <- vac - deca
   FIM
   SENÃO SE pag = 'X' OU pag = 'x'
+  ENTÃO
   INÍCIO
     pagn <- "Cheque"
     deca <- 0
@@ -130,12 +134,14 @@ INÍCIO
      vap <- vac - deca             
   FIM
   SENÃO SE pag = 'd' OU pag = 'D'
+  ENTÃO
   INÍCIO
     pagn <- "Dinheiro"
     deca <- 0
     vap <- vac - deca
   FIM
   SENÃO SE pag = 'X' OU pag = 'x'
+  ENTÃO
   INÍCIO
     pagn <- "Cheque"
     deca <- 0
