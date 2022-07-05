@@ -14,7 +14,7 @@ LEIA d
 SE d > 31
 ENTÃO
 INÍCIO   
-  ESCREVA "No mês possem no máximo 31 dias"  
+  ESCREVA "No mês possuem no máximo 31 dias"  
   ESCREVA "Não é uma data válida"
 FIM
 SENÃO
