@@ -21,14 +21,14 @@ lt <- ct/18
 ga <- ct/3.6
 plt <- lt * 80
 pga <- ga * 25
-miso <- ct * (10/100)
-mis <- miso - (miso * 18)/3.6
-ptm <- (miso * 80) + (mis * 25) 
+miso <- ct * 1.1
+mis <- miso - ((miso/18) * 18)/3.6
+ptm <- ((miso/18) * 80) + (mis * 25) 
 ESCREVA "A quantidade de latas: ",lt
 ESCREVA "o preço(latas): ",plt
 ESCREVA "A quantidade de galões: ",ga
 ESCREVA "o preço(galão): ",pga
 ESCREVA "A quantidade mista de galao e tinta "
-ESCREVA "galao: ",mis," tinta: ",miso*18
+ESCREVA "galao: ",mis," tinta: ",miso/18
 ESCREVA "O preço(galao e tinta): ",ptm
 FIM_ALGORITMO
