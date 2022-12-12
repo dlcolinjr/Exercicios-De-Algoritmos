@@ -24,7 +24,7 @@ precoGalao <- quantidadeGalao * 25
 
 coberturaTintaFolga <- coberturaTinta * 1.10
 quantidadeLataFolga <- coberturaTintaFolga / 18
-mistura <- (coberturaTintaFolga - (coberturaTintaFolga * 18))/ 3.6
+mistura <- (coberturaTintaFolga - (quantidadeLataFolga * 18))/ 3.6
 precoMistura <- (quantidadeLataFolga * 80) + (mistura * 25)
 
 ESCREVA "Somente latas: ", quantidadeLata
