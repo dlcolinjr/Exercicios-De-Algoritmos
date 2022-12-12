@@ -1,6 +1,6 @@
 <h2>Algoritmos</h2>
 
-Praticando alguns exercícios sobre programação em pseudo-linguagem. 
+Praticando alguns exercícios sobre programação em pseudolinguagem. 
 
 <p>
     Link da lista: 
