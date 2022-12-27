@@ -23,7 +23,7 @@ ESCREVA "G - gasolina"
 ESCREVA "Opção: "
 LEIA operacao
 
-SE operacao = 'A' ou operacao = 'a' ENTÃO
+SE operacao = 'A' OU operacao = 'a' ENTÃO
 INÍCIO
 	preco <- 1.90
 	tipoCombustivel <- "Álcool"
@@ -34,7 +34,7 @@ INÍCIO
 		desconto = 0.04
 FIM
 
-SE operacao = 'G' ou operacao = 'g' ENTÃO
+SE operacao = 'G' OU operacao = 'g' ENTÃO
 INÍCIO
 	preco <- 2.50
 	tipoCombustivel <- "Gasolina"
@@ -46,6 +46,7 @@ INÍCIO
 FIM
 
 precoTotal <- preco * combustivel
+desconto <- precoTotal * desconto
 precoTotal <- precoTotal - desconto
 
 ESCREVA "Tipo do combustivel: ", tipoCombustivel
